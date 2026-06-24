@@ -1,3 +1,5 @@
+import logging
+
 from fastapi import Depends, HTTPException
 from passlib.context import CryptContext
 from jose import JWTError, jwt
@@ -65,3 +67,4 @@ def admin_required(current_user: User=Depends(get_current_user)):
     if current_user.role != "admin":
         raise HTTPException(status_code=403,detail="admin access required")
     return current_user
+
