@@ -6,7 +6,7 @@ from app.respositories.user_repository import UserRepository
 
 def login_user(form_data, db):
     get_user = UserRepository.get_user_by_email(db, form_data.username)
-
+    print(get_user.password)
     if not get_user:
         raise Exception("user not found")
 

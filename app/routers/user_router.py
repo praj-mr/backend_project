@@ -30,9 +30,9 @@ def create_user(user: UserCreate,db: Session=Depends(get_db)):
     return {"message": "User created succesfully"}
 
 @router.get('/get_user')
-def get_user(curent_user: str = Depends(get_current_user), db: Session=Depends(get_db)):
-    users=db.query(User).all()
-    return users
+def get_user(curent_user: str = Depends(admin_required)):
+    return {"message": f"welcome to admin dashboard, {curent_user.name}"}
+
 
 @router.get('/users/{user_id}')
 def get_user(user_id: int ,db: Session=Depends(get_db)):
@@ -106,6 +106,8 @@ def refresh_token(request: refreshTokenRequest, db: Session=Depends(get_db)):
 async def test_error():
     x=1/0  # This will raise a ZeroDivisionError
     return {"result": x}
+
+
 
 
 
