@@ -9,7 +9,7 @@
       "env": {
         "JET_WORKSPACE": "c:\\Users\\DELL\\OneDrive\\Desktop\\Backend_project",
         "JET_API_URL": "https://api.jetro.ai",
-        "PATH": "C:\\Users\\DELL\\.jetro\\runtime;D:\\app\\DELL\\product\\11.2.0\\dbhome_3\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\nodejs\\;C:\\Program Files\\Java\\jdk1.8.0_202\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\DELL\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\bin;C:\\Users\\DELL\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        "PATH": "C:\\Users\\DELL\\.jetro\\runtime;D:\\app\\DELL\\product\\11.2.0\\dbhome_3\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\nodejs\\;C:\\Program Files\\Java\\jdk1.8.0_202\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\DELL\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\bin;C:\\Users\\DELL\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       }
     }
   }
